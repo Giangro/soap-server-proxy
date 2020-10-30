@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PosteItaliane.SIN.TTTypes.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/PosteItaliane.SIN.TTTypes.Entities">
+  <xs:import schemaLocation="PostalObjectAcceptance_1.xsd" namespace="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities"/>
+  <xs:import schemaLocation="PostalObjectAcceptance_1_2_3_4.xsd" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+  <xs:complexType name="StockEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q1:TTEntityBase" xmlns:q1="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="MSGTYPE" nillable="true" type="xs:string"/>
+          <xs:element name="OBJID" nillable="true" type="xs:string"/>
+          <xs:element name="OFCID" nillable="true" type="xs:string"/>
+          <xs:element name="PType" nillable="true" type="xs:string"/>
+          <xs:element name="TDT" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="StockEntity" nillable="true" type="tns:StockEntity"/>
+  <xs:complexType name="VarDataEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q2:TTEntityBase" xmlns:q2="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ADDR" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="ARID" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="CODVAL" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="DADDR" nillable="true" type="xs:string"/>
+          <xs:element name="DEN" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DEST" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="MSGTYPE" nillable="true" type="xs:string"/>
+          <xs:element name="OBJID" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="OFCID" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="SA" nillable="true" type="xs:string"/>
+          <xs:element name="TDT" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="ZIP" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="VarDataEntity" nillable="true" type="tns:VarDataEntity"/>
+  <xs:complexType name="PECDeliveryEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q3:TTEntityBase" xmlns:q3="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="CAUNOTIF" nillable="true" type="xs:string"/>
+          <xs:element name="DEN" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="MSGTYPE" nillable="true" type="xs:string"/>
+          <xs:element name="OBJID" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="OFCID" nillable="true" type="xs:string"/>
+          <xs:element name="PTYPE" nillable="true" type="xs:string"/>
+          <xs:element name="TDT" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PECDeliveryEntity" nillable="true" type="tns:PECDeliveryEntity"/>
+  <xs:complexType name="TTArchivingEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q4:TTEntityBase" xmlns:q4="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="COORD" nillable="true" type="xs:string"/>
+          <xs:element name="DEN" type="xs:dateTime"/>
+          <xs:element name="MSGTYPE" nillable="true" type="xs:string"/>
+          <xs:element name="OBJID" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="OFCID" nillable="true" type="xs:string"/>
+          <xs:element name="PTYPE" nillable="true" type="xs:string"/>
+          <xs:element name="TDT" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TTArchivingEntity" nillable="true" type="tns:TTArchivingEntity"/>
+  <xs:complexType name="DispatchCreationEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q5:TTEntityBase" xmlns:q5="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="DEN" type="xs:dateTime"/>
+          <xs:element name="DispatchId" nillable="true" type="xs:string"/>
+          <xs:element name="MessageType" nillable="true" type="xs:string"/>
+          <xs:element name="ObejectId" nillable="true" type="xs:string"/>
+          <xs:element name="OfficeId" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="OtherOfficeId" nillable="true" type="xs:string"/>
+          <xs:element name="ProductType" nillable="true" type="xs:string"/>
+          <xs:element name="TDT" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DispatchCreationEntity" nillable="true" type="tns:DispatchCreationEntity"/>
+  <xs:complexType name="NotifyDeliveryEntityExt">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q6:TTEntityBase" xmlns:q6="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="BTBTS" type="xs:boolean"/>
+          <xs:element name="CAUNOTIF" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="CasaComunale" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="CodVal" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="Comune" nillable="true" type="xs:string"/>
+          <xs:element name="DEN" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DatAtto" nillable="true" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DelegName" nillable="true" type="xs:string"/>
+          <xs:element name="Delivered" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="Device" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="DocAgency" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="DocExpTime" nillable="true" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DocId" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="DocType" nillable="true" type="xs:string"/>
+          <xs:element name="FDNUM" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="IdPatente" nillable="true" type="xs:string"/>
+          <xs:element name="Luogo" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="MSID" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="ModPag" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="NumAtto" nillable="true" type="xs:string"/>
+          <xs:element name="OFCID" nillable="true" type="xs:string"/>
+          <xs:element name="ObjId" nillable="true" type="xs:string"/>
+          <xs:element name="PType" nillable="true" type="xs:string"/>
+          <xs:element name="ProcStatus" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="RecId" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="RecName" nillable="true" type="xs:string"/>
+          <xs:element name="RecapitoConcordato" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="Signature" nillable="true" type="xs:string"/>
+          <xs:element name="TDT" type="xs:dateTime"/>
+          <xs:element name="TipoMessaggio" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="AREADEST" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="MSNAME" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="OFCOTH" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="TIPO23L" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="TNNUM" nillable="true" type="xs:int"/>
+          <xs:element minOccurs="0" name="PESOEML" nillable="true" type="xs:int"/>
+          <xs:element minOccurs="0" name="INDPEC" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="MITPEC" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="MSGID" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="NotifyDeliveryEntityExt" nillable="true" type="tns:NotifyDeliveryEntityExt"/>
+  <xs:complexType name="DispatchControlEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q7:TTEntityBase" xmlns:q7="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="DispatchId" nillable="true" type="xs:string"/>
+          <xs:element name="EventDate" type="xs:dateTime"/>
+          <xs:element name="ObjectId" nillable="true" type="xs:string"/>
+          <xs:element name="OfficeId" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="OtherOfficeId" nillable="true" type="xs:string"/>
+          <xs:element name="ProductType" nillable="true" type="xs:string"/>
+          <xs:element name="TrackTraceDate" type="xs:dateTime"/>
+          <xs:element name="MSGTYPE" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DispatchControlEntity" nillable="true" type="tns:DispatchControlEntity"/>
+  <xs:complexType name="ItemEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q8:TTEntityBase" xmlns:q8="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Archiving" nillable="true" type="tns:TTArchivingEntity"/>
+          <xs:element minOccurs="0" name="Dispatch" nillable="true" type="tns:DispatchCreationEntity"/>
+          <xs:element minOccurs="0" name="DispatchControl" nillable="true" type="tns:DispatchControlEntity"/>
+          <xs:element minOccurs="0" name="Notify" nillable="true" type="tns:NotifyDeliveryEntityExt"/>
+          <xs:element minOccurs="0" name="PEC" nillable="true" type="tns:PECDeliveryEntity"/>
+          <xs:element minOccurs="0" name="Stock" nillable="true" type="tns:StockEntity"/>
+          <xs:element minOccurs="0" name="Vardata" nillable="true" type="tns:VarDataEntity"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ItemEntity" nillable="true" type="tns:ItemEntity"/>
+  <xs:complexType name="NotifyDeliveryExtWrapperEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q9:TTEntityBase" xmlns:q9="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="Entity" nillable="true" type="tns:NotifyDeliveryEntityExt"/>
+          <xs:element name="Id" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="NotifyDeliveryExtWrapperEntity" nillable="true" type="tns:NotifyDeliveryExtWrapperEntity"/>
+  <xs:complexType name="PostalObjectAcceptanceWrapperEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q10:TTEntityBase" xmlns:q10="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="Entity" nillable="true" type="q10:PostalObjectAcceptanceEntity"/>
+          <xs:element name="Id" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="PropertyBag" nillable="true" type="q11:ArrayOfKeyValueOfanyTypeanyType" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PostalObjectAcceptanceWrapperEntity" nillable="true" type="tns:PostalObjectAcceptanceWrapperEntity"/>
+  <xs:complexType name="TTArchivingWrapperEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q12:TTEntityBase" xmlns:q12="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="Entity" nillable="true" type="tns:TTArchivingEntity"/>
+          <xs:element name="Id" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TTArchivingWrapperEntity" nillable="true" type="tns:TTArchivingWrapperEntity"/>
+  <xs:complexType name="VarDataEntityWrapper">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q13:TTEntityBase" xmlns:q13="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="Entity" nillable="true" type="tns:VarDataEntity"/>
+          <xs:element name="Id" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="VarDataEntityWrapper" nillable="true" type="tns:VarDataEntityWrapper"/>
+  <xs:complexType name="StockEntityWrapper">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q14:TTEntityBase" xmlns:q14="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="Entity" nillable="true" type="tns:StockEntity"/>
+          <xs:element name="Id" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="StockEntityWrapper" nillable="true" type="tns:StockEntityWrapper"/>
+  <xs:complexType name="DispatchCreationWrapperEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q15:TTEntityBase" xmlns:q15="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="Entity" nillable="true" type="tns:DispatchCreationEntity"/>
+          <xs:element name="Id" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="PropertyBag" nillable="true" type="q16:ArrayOfKeyValueOfanyTypeanyType" xmlns:q16="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DispatchCreationWrapperEntity" nillable="true" type="tns:DispatchCreationWrapperEntity"/>
+  <xs:complexType name="PECDeliveryWrapperEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q17:TTEntityBase" xmlns:q17="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="Entity" nillable="true" type="tns:PECDeliveryEntity"/>
+          <xs:element name="Id" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PECDeliveryWrapperEntity" nillable="true" type="tns:PECDeliveryWrapperEntity"/>
+  <xs:complexType name="DispatchControlWrapperEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q18:TTEntityBase" xmlns:q18="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="Entity" nillable="true" type="tns:DispatchControlEntity"/>
+          <xs:element name="Id" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="PropertyBag" nillable="true" type="q19:ArrayOfKeyValueOfanyTypeanyType" xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DispatchControlWrapperEntity" nillable="true" type="tns:DispatchControlWrapperEntity"/>
+</xs:schema>

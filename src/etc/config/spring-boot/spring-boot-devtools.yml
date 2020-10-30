@@ -1,0 +1,5 @@
+sdh:
+  gateway-processor:
+    root: CLIENTI/POSTEITALIANE/SIN/DATAHUB/GATEWAYSERVICE/__test_root_ap
+server:
+  port: 0

@@ -1,0 +1,22 @@
+version: "3"
+services:
+  soap-server-proxy:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: 'soap-server-proxy:latest'
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 1G
+    ports:
+      - '8080:8080'
+    environment:
+      - JAVA_TOOL_OPTIONS=-XX:MaxMetaspaceSize=200m -XX:MinRAMPercentage=60.0 -XX:MaxRAMPercentage=90.0 -XX:+UnlockExperimentalVMOptions -XX:+UseZGC
+    networks:
+      - develop-network
+networks:
+  develop-network:
+    external:
+      name: develop-network

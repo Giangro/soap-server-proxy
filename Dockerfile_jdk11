@@ -1,0 +1,12 @@
+FROM maven:3.6.0-jdk-11-slim AS build
+WORKDIR /app
+COPY pom.xml .
+RUN mvn dependency:go-offline
+COPY src ./src
+RUN mvn package -DskipTests
+FROM postesviluppo.azurecr.io/openjdk/openjdk-11-rhel7:1.1-6
+WORKDIR /deployments
+RUN mkdir -p /deployments/datadog/
+RUN curl -kLo /deployments/datadog/dd-java-agent.jar 'https://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.datadoghq&a=dd-java-agent&v=LATEST'
+COPY --from=build /app/target/*.jar app.jar
+

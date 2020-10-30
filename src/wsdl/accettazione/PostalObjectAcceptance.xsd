@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="http://it.posteitaliane.gme/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://it.posteitaliane.gme/">
+  <xs:import schemaLocation="PostalObjectAcceptance_1.xsd" namespace="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities"/>
+  <xs:element name="PostalObjectAcceptance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="postalObjectAcceptanceEntities" nillable="true" type="q1:ArrayOfPostalObjectAcceptanceEntity" xmlns:q1="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PostalObjectAcceptanceResponse">
+    <xs:complexType>
+      <xs:sequence/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

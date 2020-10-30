@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SIN.DataHub.SINTypes" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/SIN.DataHub.SINTypes">
+  <xs:import schemaLocation="PostalObjectAcceptance_1.xsd" namespace="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities"/>
+  <xs:import schemaLocation="PostalObjectAcceptance_1_2_3_4_5_6.xsd" namespace="http://schemas.datacontract.org/2004/07/PosteItaliane.SIN.TTTypes.Enums"/>
+  <xs:complexType name="SINEsitoEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q1:TTEntityBase" xmlns:q1="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="CodiceRaccomandata" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="CodiceRaccomandataAR" nillable="true" type="xs:string"/>
+          <xs:element name="DataEsito" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SINEsitoEntity" nillable="true" type="tns:SINEsitoEntity"/>
+  <xs:complexType name="ArchivingNotifyEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q2:TTEntityBase" xmlns:q2="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="Sistema" nillable="true" type="xs:string"/>
+          <xs:element name="Lotto" nillable="true" type="xs:string"/>
+          <xs:element name="NomeFileZip" nillable="true" type="xs:string"/>
+          <xs:element name="ArchivingEntities" nillable="true" type="tns:ArrayOfArchivingEntity"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ArchivingNotifyEntity" nillable="true" type="tns:ArchivingNotifyEntity"/>
+  <xs:complexType name="ArrayOfArchivingEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchivingEntity" nillable="true" type="tns:ArchivingEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfArchivingEntity" nillable="true" type="tns:ArrayOfArchivingEntity"/>
+  <xs:complexType name="ArchivingEntity">
+    <xs:sequence>
+      <xs:element name="CodiceRaccomandata" nillable="true" type="xs:string"/>
+      <xs:element name="CodiceRaccomandataRitorno" nillable="true" type="xs:string"/>
+      <xs:element name="NomeFile" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="NomeFileFirmaDigitale" nillable="true" type="xs:string"/>
+      <xs:element name="TipoOggettoRitorno" nillable="true" type="xs:string"/>
+      <xs:element name="DataScansione" type="xs:dateTime"/>
+      <xs:element name="DataNotificaAtto" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="CoordinateElettroniche" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CoordinateFisiche" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CodiceCAN" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DataCAN" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArchivingEntity" nillable="true" type="tns:ArchivingEntity"/>
+  <xs:complexType name="ArchivingNotifyDigitalEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q3:TTEntityBase" xmlns:q3="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="Sistema" nillable="true" type="xs:string"/>
+          <xs:element name="IdLotto" nillable="true" type="xs:string"/>
+          <xs:element name="NomeFileZip" nillable="true" type="xs:string"/>
+          <xs:element name="ListaOggettiArchiviati" nillable="true" type="tns:ArrayOfOggetto"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ArchivingNotifyDigitalEntity" nillable="true" type="tns:ArchivingNotifyDigitalEntity"/>
+  <xs:complexType name="ArrayOfOggetto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Oggetto" nillable="true" type="tns:Oggetto"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOggetto" nillable="true" type="tns:ArrayOfOggetto"/>
+  <xs:complexType name="Oggetto">
+    <xs:sequence>
+      <xs:element name="CodiceOggetto" nillable="true" type="xs:string"/>
+      <xs:element name="MessageID" nillable="true" type="xs:string"/>
+      <xs:element name="NomeFile1" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="NomeFile2" nillable="true" type="xs:string"/>
+      <xs:element name="TipoOggetto" type="q4:TipoOggettoDigitaleEnum" xmlns:q4="http://schemas.datacontract.org/2004/07/PosteItaliane.SIN.TTTypes.Enums"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Oggetto" nillable="true" type="tns:Oggetto"/>
+  <xs:complexType name="SINAnomaliaEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q5:TTEntityBase" xmlns:q5="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="CodiceAnomalia" nillable="true" type="xs:string"/>
+          <xs:element name="CodiceRaccomandata" nillable="true" type="xs:string"/>
+          <xs:element name="CodiceRaccomandataAR" nillable="true" type="xs:string"/>
+          <xs:element name="DataAnomalia" type="xs:dateTime"/>
+          <xs:element name="DescrizioneAnomalia" nillable="true" type="xs:string"/>
+          <xs:element name="TipoAnomalia" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="CentroLavorazione" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SINAnomaliaEntity" nillable="true" type="tns:SINAnomaliaEntity"/>
+  <xs:complexType name="ArchivingNotifyFlatEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q6:TTEntityBase" xmlns:q6="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CodiceCAN" nillable="true" type="xs:string"/>
+          <xs:element name="CodiceRaccomandata" nillable="true" type="xs:string"/>
+          <xs:element name="CodiceRaccomandataRitorno" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="CoordinateElettroniche" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="CoordinateFisiche" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataCAN" type="xs:dateTime"/>
+          <xs:element name="DataNotificaAtto" type="xs:dateTime"/>
+          <xs:element name="DataScansione" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="EsitoNotifica" nillable="true" type="xs:string"/>
+          <xs:element name="Lotto" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="MessageID" nillable="true" type="xs:string"/>
+          <xs:element name="NomeFile" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="NomeFileACC" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="NomeFileCON" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="NomeFileFirmaDigitale" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="NomeFileZip" nillable="true" type="xs:string"/>
+          <xs:element name="Sistema" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="TipoOggettoDigitale" nillable="true" type="xs:string"/>
+          <xs:element name="TipoOggettoRitorno" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ArchivingNotifyFlatEntity" nillable="true" type="tns:ArchivingNotifyFlatEntity"/>
+  <xs:complexType name="SINFlussoAvanzamentoStatiLavorazioneFlatEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q7:TTEntityBase" xmlns:q7="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ListaOggetti" nillable="true" type="tns:ArrayOfOggettoFlat"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SINFlussoAvanzamentoStatiLavorazioneFlatEntity" nillable="true" type="tns:SINFlussoAvanzamentoStatiLavorazioneFlatEntity"/>
+  <xs:complexType name="ArrayOfOggettoFlat">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OggettoFlat" nillable="true" type="tns:OggettoFlat"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOggettoFlat" nillable="true" type="tns:ArrayOfOggettoFlat"/>
+  <xs:complexType name="OggettoFlat">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q8:TTEntityBase" xmlns:q8="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="CODICE_OGGETTO" nillable="true" type="xs:string"/>
+          <xs:element name="ELENCO_STATI" nillable="true" type="tns:ArrayOfStato"/>
+          <xs:element name="Sistema" nillable="true" type="xs:string"/>
+          <xs:element name="Text" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="OggettoFlat" nillable="true" type="tns:OggettoFlat"/>
+  <xs:complexType name="ArrayOfStato">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Stato" nillable="true" type="tns:Stato"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStato" nillable="true" type="tns:ArrayOfStato"/>
+  <xs:complexType name="Stato">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q9:TTEntityBase" xmlns:q9="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+        <xs:sequence>
+          <xs:element name="CODICE_STATO" nillable="true" type="xs:string"/>
+          <xs:element name="DATA_STATO" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="ATTRIBUTO_1" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="ATTRIBUTO_2" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="CENTRO_LAV" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Stato" nillable="true" type="tns:Stato"/>
+</xs:schema>

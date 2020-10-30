@@ -1,0 +1,4012 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<s:Header xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<To s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://gmemulticliente.rete.poste:89/TTService/PostalObjectAcceptance</To>
+<Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://it.posteitaliane.gme/ITTPostalObjectAcceptance/PostalObjectAcceptance</Action>
+</s:Header>
+<soap:Body>
+<PostalObjectAcceptance xmlns="http://it.posteitaliane.gme/">
+<postalObjectAcceptanceEntities>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:09:43</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313863261</OBJID>
+<OFCID>25421</OFCID>
+<OPERATORID>12560</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350836062</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:08:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313954261</OBJID>
+<OFCID>25187</OFCID>
+<OPERATORID>10</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402463062</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:24</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433132062</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:23:08</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786311520263</OBJID>
+<OFCID>94252</OFCID>
+<OPERATORID>39435</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:24:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313721771</OBJID>
+<OFCID>25072</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:03:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313960064</OBJID>
+<OFCID>49156</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:46:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313795064</OBJID>
+<OFCID>70004</OFCID>
+<OPERATORID>76987</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402471062</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:56:28</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313822261</OBJID>
+<OFCID>85213</OFCID>
+<OPERATORID>83136</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:32:09</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313839261</OBJID>
+<OFCID>25439</OFCID>
+<OPERATORID>11521</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350837769</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:38</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433140062</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:49:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665711286261</OBJID>
+<OFCID>48121</OFCID>
+<OPERATORID>1628</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:25:57</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433149062</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:55:26</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313811769</OBJID>
+<OFCID>25040</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433157062</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:57:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402450261</OBJID>
+<OFCID>07166</OFCID>
+<OPERATORID>89346</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-14T21:08:07</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647879683062</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>903</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:42:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314003261</OBJID>
+<OFCID>89338</OFCID>
+<OPERATORID>20921</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:42:56</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313837769</OBJID>
+<OFCID>25398</OFCID>
+<OPERATORID>9776</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:29:55</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313928769</OBJID>
+<OFCID>09164</OFCID>
+<OPERATORID>25409</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:32</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864210261</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:30</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402467261</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433144261</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:46:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647879692769</OBJID>
+<OFCID>17177</OFCID>
+<OPERATORID>902</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:24:25</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433128261</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:16:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313794769</OBJID>
+<OFCID>55877</OFCID>
+<OPERATORID>59690</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:08:54</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310940769</OBJID>
+<OFCID>84200</OFCID>
+<OPERATORID>64838</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:28:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433160261</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:11</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402459261</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433136261</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:14:30</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313970261</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>38</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:37:06</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402441769</OBJID>
+<OFCID>07195</OFCID>
+<OPERATORID>46318</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:21:08</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433152261</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:04</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402472769</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:07</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433158769</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T20:21:42</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686311690769</OBJID>
+<OFCID>34145</OFCID>
+<OPERATORID>38475</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:24</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402464769</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433133769</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:29</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433126769</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:30</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864209769</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:14</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433141769</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:35:28</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686303927063</OBJID>
+<OFCID>01095</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:24:06</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313976063</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:22:05</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686311505262</OBJID>
+<OFCID>55121</OFCID>
+<OPERATORID>22</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:48</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350837063</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:50:21</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864162262</OBJID>
+<OFCID>82900</OFCID>
+<OPERATORID>45393</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:41</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864190063</OBJID>
+<OFCID>63393</OFCID>
+<OPERATORID>9</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:23:01</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313992063</OBJID>
+<OFCID>07153</OFCID>
+<OPERATORID>7514</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:21:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402423063</OBJID>
+<OFCID>07101</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:58:27</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313844063</OBJID>
+<OFCID>25398</OFCID>
+<OPERATORID>9776</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:51</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350840262</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:30:25</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313720770</OBJID>
+<OFCID>25067</OFCID>
+<OPERATORID>7</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T00:00:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463080770</OBJID>
+<OFCID>28425</OFCID>
+<OPERATORID>72505</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:58:39</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402419262</OBJID>
+<OFCID>18304</OFCID>
+<OPERATORID>38</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:17:06</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313968063</OBJID>
+<OFCID>78094</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:40:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313939262</OBJID>
+<OFCID>25380</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:59:04</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786313814262</OBJID>
+<OFCID>25421</OFCID>
+<OPERATORID>64477</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:03:34</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313852063</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:01:36</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402436262</OBJID>
+<OFCID>07150</OFCID>
+<OPERATORID>56587</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:42:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313869063</OBJID>
+<OFCID>25398</OFCID>
+<OPERATORID>9776</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:09:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310952262</OBJID>
+<OFCID>84195</OFCID>
+<OPERATORID>66144</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:26:58</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879578770</OBJID>
+<OFCID>38381</OFCID>
+<OPERATORID>9</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:26:51</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313864262</OBJID>
+<OFCID>25067</OFCID>
+<OPERATORID>10</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:41:22</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402456063</OBJID>
+<OFCID>07166</OFCID>
+<OPERATORID>50771</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433133063</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433141063</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402472063</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:46:52</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647879692770</OBJID>
+<OFCID>17177</OFCID>
+<OPERATORID>902</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350837770</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:52:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402443262</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>906</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:27</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402466260</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:41</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402474260</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:30</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433127260</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:51</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433135260</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:17:27</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314025768</OBJID>
+<OFCID>33212</OFCID>
+<OPERATORID>87493</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:44:55</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665711260260</OBJID>
+<OFCID>45225</OFCID>
+<OPERATORID>39220</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:58:04</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402456768</OBJID>
+<OFCID>07153</OFCID>
+<OPERATORID>7514</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:34</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864211262</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:15:22</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402416770</OBJID>
+<OFCID>25398</OFCID>
+<OPERATORID>9776</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:24:43</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433137262</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:09:52</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402448768</OBJID>
+<OFCID>07153</OFCID>
+<OPERATORID>7514</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:27:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879679260</OBJID>
+<OFCID>38671</OFCID>
+<OPERATORID>71439</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:17:42</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786313966768</OBJID>
+<OFCID>46170</OFCID>
+<OPERATORID>9</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:23</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402464063</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:22:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433161262</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T21:23:29</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686311520262</OBJID>
+<OFCID>94252</OFCID>
+<OPERATORID>39435</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:06</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433158063</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:51</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433153262</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:31:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310956063</OBJID>
+<OFCID>84195</OFCID>
+<OPERATORID>27684</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:28:14</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433145262</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:49:27</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313856262</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:56:28</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313902770</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T06:40:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665711234768</OBJID>
+<OFCID>38630</OFCID>
+<OPERATORID>70268</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402471768</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402463768</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:06</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433157768</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:19:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433149768</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433140768</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:38:50</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665711290768</OBJID>
+<OFCID>17177</OFCID>
+<OPERATORID>902</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433132768</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:28</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864208768</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:53:37</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463034261</OBJID>
+<OFCID>28426</OFCID>
+<OPERATORID>102702</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:05:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313869770</OBJID>
+<OFCID>25061</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:34</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433129262</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:55:58</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313837770</OBJID>
+<OFCID>25398</OFCID>
+<OPERATORID>9776</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:32</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402468262</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:09:38</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310949770</OBJID>
+<OFCID>84195</OFCID>
+<OPERATORID>66144</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350843062</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:18:30</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313715261</OBJID>
+<OFCID>25003</OFCID>
+<OPERATORID>7</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:01:04</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313818062</OBJID>
+<OFCID>25391</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:14:58</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313975062</OBJID>
+<OFCID>25090</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:59:59</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686256402261</OBJID>
+<OFCID>17028</OFCID>
+<OPERATORID>2</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:04</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402472770</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:24</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402464770</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:14</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433141770</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433133770</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:07</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433158770</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:29</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433126770</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:23:07</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786313983770</OBJID>
+<OFCID>25397</OFCID>
+<OPERATORID>101589</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:30:11</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313868062</OBJID>
+<OFCID>25409</OFCID>
+<OPERATORID>57467</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:48:41</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790432929769</OBJID>
+<OFCID>28421</OFCID>
+<OPERATORID>46613</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:36:29</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312301769</OBJID>
+<OFCID>79042</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:12:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686350814064</OBJID>
+<OFCID>55520</OFCID>
+<OPERATORID>7</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:38:14</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686350797064</OBJID>
+<OFCID>55912</OFCID>
+<OPERATORID>10</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:42:20</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313737064</OBJID>
+<OFCID>25358</OFCID>
+<OPERATORID>2</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:35:34</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864170263</OBJID>
+<OFCID>01389</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:36:23</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313919064</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:21:10</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879570064</OBJID>
+<OFCID>22075</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:52:24</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313959062</OBJID>
+<OFCID>36004</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:10:18</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313847261</OBJID>
+<OFCID>25400</OFCID>
+<OPERATORID>26511</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:12:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314008062</OBJID>
+<OFCID>52092</OFCID>
+<OPERATORID>93373</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:10:35</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402448062</OBJID>
+<OFCID>07153</OFCID>
+<OPERATORID>7514</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350838064</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:32:12</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879566263</OBJID>
+<OFCID>38026</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:24:23</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313993064</OBJID>
+<OFCID>43223</OFCID>
+<OPERATORID>51468</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:42:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879608263</OBJID>
+<OFCID>00811</OFCID>
+<OPERATORID>69798</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T06:59:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647879691461</OBJID>
+<OFCID>89296</OFCID>
+<OPERATORID>88585</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:36:19</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864535162</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>659</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:13:43</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864207461</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>901</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:24:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313810461</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T00:00:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463079163</OBJID>
+<OFCID>28425</OFCID>
+<OPERATORID>72505</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:31:21</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313695462</OBJID>
+<OFCID>93124</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T06:47:10</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786303927462</OBJID>
+<OFCID>63583</OFCID>
+<OPERATORID>273</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:30:57</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313720462</OBJID>
+<OFCID>25067</OFCID>
+<OPERATORID>7</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350842163</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:56:30</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786313997163</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>901</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350834163</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:45:08</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402421163</OBJID>
+<OFCID>07001</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:49:32</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313990163</OBJID>
+<OFCID>25401</OFCID>
+<OPERATORID>93263</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:07:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313842163</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:12:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313753462</OBJID>
+<OFCID>11032</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:44:55</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463102161</OBJID>
+<OFCID>28426</OFCID>
+<OPERATORID>102702</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:20:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864173460</OBJID>
+<OFCID>89134</OFCID>
+<OPERATORID>7</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:01:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879590161</OBJID>
+<OFCID>38098</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:17:48</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686311241161</OBJID>
+<OFCID>55757</OFCID>
+<OPERATORID>53255</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:35:24</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313948161</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:06:42</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310955460</OBJID>
+<OFCID>84200</OFCID>
+<OPERATORID>64838</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:09:50</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313980161</OBJID>
+<OFCID>25409</OFCID>
+<OPERATORID>57467</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:45:31</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312314161</OBJID>
+<OFCID>79074</OFCID>
+<OPERATORID>51764</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:41:41</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313974460</OBJID>
+<OFCID>25202</OFCID>
+<OPERATORID>7</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T06:47:33</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402444161</OBJID>
+<OFCID>68172</OFCID>
+<OPERATORID>901</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:04:18</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312316460</OBJID>
+<OFCID>74594</OFCID>
+<OPERATORID>32750</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:23</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433131460</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:52</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433154161</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864212161</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:12</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402460161</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:22:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433162161</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:28:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433146161</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:52</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350841161</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:24:44</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433138161</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350835460</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402469161</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T20:04:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310443460</OBJID>
+<OFCID>57384</OFCID>
+<OPERATORID>56335</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402471460</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:05</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433157460</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:03:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313849161</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T06:02:51</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665711199460</OBJID>
+<OFCID>38633</OFCID>
+<OPERATORID>96464</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:39:41</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786303827461</OBJID>
+<OFCID>28418</OFCID>
+<OPERATORID>901</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:34:04</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686317058162</OBJID>
+<OFCID>84172</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:30:01</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686350819162</OBJID>
+<OFCID>55523</OFCID>
+<OPERATORID>2</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:53:10</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463063461</OBJID>
+<OFCID>28426</OFCID>
+<OPERATORID>102702</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:51:26</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312291461</OBJID>
+<OFCID>79049</OFCID>
+<OPERATORID>11</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:58:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686309708162</OBJID>
+<OFCID>31247</OFCID>
+<OPERATORID>96434</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:45:30</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879651461</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>228</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350836461</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:23:30</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313907162</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-17T02:46:48</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864528162</OBJID>
+<OFCID>38615</OFCID>
+<OPERATORID>364</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:19:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313934461</OBJID>
+<OFCID>67035</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:00:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402431461</OBJID>
+<OFCID>07150</OFCID>
+<OPERATORID>56587</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:29:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313827461</OBJID>
+<OFCID>49191</OFCID>
+<OPERATORID>83647</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:19:23</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314030162</OBJID>
+<OFCID>40473</OFCID>
+<OPERATORID>36206</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-17T02:39:18</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864529461</OBJID>
+<OFCID>38615</OFCID>
+<OPERATORID>330</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:25:54</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433147162</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:35</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433130162</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433155162</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402463461</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:27:01</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879682162</OBJID>
+<OFCID>26128</OFCID>
+<OPERATORID>40889</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:09</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433163162</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:19:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433149461</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864213162</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402461162</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:24</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433132461</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:37</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433139162</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:39</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433140461</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:05:58</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879680672</OBJID>
+<OFCID>38633</OFCID>
+<OPERATORID>4825</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:33</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402468672</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:14</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864211672</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:59:20</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647863931673</OBJID>
+<OFCID>28418</OFCID>
+<OPERATORID>901</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:33:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686317057673</OBJID>
+<OFCID>84172</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:08:33</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864163673</OBJID>
+<OFCID>63539</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:30:11</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647879666983</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>353</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:23:18</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686305203983</OBJID>
+<OFCID>47174</OFCID>
+<OPERATORID>75916</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:27:21</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686311516983</OBJID>
+<OFCID>74594</OFCID>
+<OPERATORID>32750</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T20:33:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402439983</OBJID>
+<OFCID>07200</OFCID>
+<OPERATORID>8253</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402470983</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:10:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314007983</OBJID>
+<OFCID>27214</OFCID>
+<OPERATORID>55718</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:20:33</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312297673</OBJID>
+<OFCID>79069</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:48:26</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312297673</OBJID>
+<OFCID>07143</OFCID>
+<OPERATORID>286</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:52:18</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402404673</OBJID>
+<OFCID>07018</OFCID>
+<OPERATORID>2</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:52</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350841673</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350833673</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:51:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313898673</OBJID>
+<OFCID>10203</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:06:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310945673</OBJID>
+<OFCID>84101</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:07:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313923673</OBJID>
+<OFCID>49195</OFCID>
+<OPERATORID>15248</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:00:05</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313964673</OBJID>
+<OFCID>06194</OFCID>
+<OPERATORID>28583</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:28:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314005673</OBJID>
+<OFCID>08155</OFCID>
+<OPERATORID>10758</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:10:37</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402445673</OBJID>
+<OFCID>07153</OFCID>
+<OPERATORID>7514</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:20:25</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402451673</OBJID>
+<OFCID>07166</OFCID>
+<OPERATORID>50771</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:08:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864205673</OBJID>
+<OFCID>38671</OFCID>
+<OPERATORID>71439</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:24:43</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433137673</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:21:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686311505980</OBJID>
+<OFCID>94127</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:50:25</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313724980</OBJID>
+<OFCID>25393</OFCID>
+<OPERATORID>9</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:03:54</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402377980</OBJID>
+<OFCID>28418</OFCID>
+<OPERATORID>901</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350841980</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:26:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786313847980</OBJID>
+<OFCID>25397</OFCID>
+<OPERATORID>75217</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:28:36</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313930980</OBJID>
+<OFCID>46244</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:45:23</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313823980</OBJID>
+<OFCID>04141</OFCID>
+<OPERATORID>9517</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:23:58</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313920670</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>497</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:09:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864526980</OBJID>
+<OFCID>38698</OFCID>
+<OPERATORID>68092</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:37:19</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402444980</OBJID>
+<OFCID>07173</OFCID>
+<OPERATORID>50012</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:57:48</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314029980</OBJID>
+<OFCID>40472</OFCID>
+<OPERATORID>39680</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402468980</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864211980</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:52</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433153980</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:24:44</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433137980</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:35</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433129980</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:28:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433145980</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:11:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313813670</OBJID>
+<OFCID>25421</OFCID>
+<OPERATORID>12560</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:58:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864193670</OBJID>
+<OFCID>28439</OFCID>
+<OPERATORID>9410</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:01:44</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314027670</OBJID>
+<OFCID>25401</OFCID>
+<OPERATORID>93263</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:01:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786314026670</OBJID>
+<OFCID>32097</OFCID>
+<OPERATORID>97480</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:33:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879679670</OBJID>
+<OFCID>38635</OFCID>
+<OPERATORID>18745</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:08:27</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665711269670</OBJID>
+<OFCID>22138</OFCID>
+<OPERATORID>67286</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:28</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402466670</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:22:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433161980</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:50:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313980981</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350833981</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:57:36</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647879680981</OBJID>
+<OFCID>42177</OFCID>
+<OPERATORID>215</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:07:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313832981</OBJID>
+<OFCID>40467</OFCID>
+<OPERATORID>103711</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:54</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433136670</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433143670</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:21:07</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433151670</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:40:38</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312832671</OBJID>
+<OFCID>27008</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:00:27</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313715671</OBJID>
+<OFCID>25171</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:56:01</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463075671</OBJID>
+<OFCID>28426</OFCID>
+<OPERATORID>102702</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T00:00:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463083671</OBJID>
+<OFCID>28425</OFCID>
+<OPERATORID>72505</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:32:08</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402453981</OBJID>
+<OFCID>07174</OFCID>
+<OPERATORID>88729</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:21:54</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665711197981</OBJID>
+<OFCID>38664</OFCID>
+<OPERATORID>88625</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:37</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433138981</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864212981</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:00:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313987671</OBJID>
+<OFCID>59131</OFCID>
+<OPERATORID>93763</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:02:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879664671</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>215</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:57:52</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686311512671</OBJID>
+<OFCID>94262</OFCID>
+<OPERATORID>79671</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:11:24</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313938671</OBJID>
+<OFCID>25377</OFCID>
+<OPERATORID>2</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:32</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864210671</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:01</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402469981</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:22:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433162981</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:28:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433146981</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402460981</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433154981</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:36:19</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864534981</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>659</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:26:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313726982</OBJID>
+<OFCID>25368</OFCID>
+<OPERATORID>7</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:51:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313734982</OBJID>
+<OFCID>85150</OFCID>
+<OPERATORID>7</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433144671</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:12</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402459671</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:28:48</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433160671</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:31</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402467671</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:21:09</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433152671</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:04:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313899982</OBJID>
+<OFCID>66448</OFCID>
+<OPERATORID>98187</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:51:22</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310938982</OBJID>
+<OFCID>28418</OFCID>
+<OPERATORID>755</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-15T21:36:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402445982</OBJID>
+<OFCID>07143</OFCID>
+<OPERATORID>901</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:28:10</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314030982</OBJID>
+<OFCID>57422</OFCID>
+<OPERATORID>22304</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:24:26</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433128671</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:11:59</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686038982672</OBJID>
+<OFCID>79012</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:50:54</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463027672</OBJID>
+<OFCID>28426</OFCID>
+<OPERATORID>102702</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:49:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879581672</OBJID>
+<OFCID>55145</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:14:37</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879598672</OBJID>
+<OFCID>38269</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:51</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350840672</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:43:28</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313998982</OBJID>
+<OFCID>55768</OFCID>
+<OPERATORID>33829</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:38:37</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402438982</OBJID>
+<OFCID>38671</OFCID>
+<OPERATORID>71439</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864213982</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:25:55</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433147982</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350834982</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:32:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313798672</OBJID>
+<OFCID>38661</OFCID>
+<OPERATORID>25831</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:38</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433139982</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:22</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433130982</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:01:26</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879690982</OBJID>
+<OFCID>38634</OFCID>
+<OPERATORID>7754</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:21:27</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433163982</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433155982</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:14</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402461982</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:44:06</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864165983</OBJID>
+<OFCID>38521</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:38:01</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313955672</OBJID>
+<OFCID>25018</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:52</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433153672</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:22:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433161672</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:28:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433145672</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:46:58</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665711196672</OBJID>
+<OFCID>45225</OFCID>
+<OPERATORID>39220</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:34</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433129672</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:11:33</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879568983</OBJID>
+<OFCID>38290</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350835983</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:08:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864197983</OBJID>
+<OFCID>38634</OFCID>
+<OPERATORID>25173</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350842983</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:59:36</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313859983</OBJID>
+<OFCID>61117</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:02:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313990983</OBJID>
+<OFCID>25401</OFCID>
+<OPERATORID>93263</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:17:36</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686311237371</OBJID>
+<OFCID>55757</OFCID>
+<OPERATORID>53255</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:25:25</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313992371</OBJID>
+<OFCID>40482</OFCID>
+<OPERATORID>87384</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:57:18</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313984371</OBJID>
+<OFCID>25398</OFCID>
+<OPERATORID>9776</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T05:38:10</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402431371</OBJID>
+<OFCID>07153</OFCID>
+<OPERATORID>98290</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T20:25:41</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314025371</OBJID>
+<OFCID>33217</OFCID>
+<OPERATORID>85760</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T20:53:08</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313914570</OBJID>
+<OFCID>25239</OFCID>
+<OPERATORID>81537</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:26:18</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686303926880</OBJID>
+<OFCID>01006</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:14</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864211570</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:08:27</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314004570</OBJID>
+<OFCID>12383</OFCID>
+<OPERATORID>86722</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:07:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314009371</OBJID>
+<OFCID>25239</OFCID>
+<OPERATORID>23539</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:13:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314000371</OBJID>
+<OFCID>63627</OFCID>
+<OPERATORID>62081</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:23</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402464371</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:07</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433158371</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:16:59</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864208371</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433141371</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:48</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350837371</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:38:55</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313742572</OBJID>
+<OFCID>25061</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:33</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402468570</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T06:29:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665711213570</OBJID>
+<OFCID>38629</OFCID>
+<OPERATORID>96465</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:34</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433129570</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:02:21</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402387880</OBJID>
+<OFCID>18304</OFCID>
+<OPERATORID>38</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:22:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433161570</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:51</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350840570</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:35:05</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879680570</OBJID>
+<OFCID>38630</OFCID>
+<OPERATORID>57826</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:12:40</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313718572</OBJID>
+<OFCID>25056</OFCID>
+<OPERATORID>10</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433133371</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402472371</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T05:08:25</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665501049371</OBJID>
+<OFCID>61134</OFCID>
+<OPERATORID>9337</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:07:19</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864163572</OBJID>
+<OFCID>63583</OFCID>
+<OPERATORID>273</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T00:00:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463111572</OBJID>
+<OFCID>28425</OFCID>
+<OPERATORID>72505</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350842572</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350834572</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T00:00:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463063882</OBJID>
+<OFCID>28425</OFCID>
+<OPERATORID>72505</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:15:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786038991572</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>901</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:28:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433146570</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:44:43</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864206880</OBJID>
+<OFCID>42177</OFCID>
+<OPERATORID>902</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350834880</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:51</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433153570</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T11:09:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879674880</OBJID>
+<OFCID>00811</OFCID>
+<OPERATORID>69798</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402460570</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:59:51</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313965880</OBJID>
+<OFCID>55205</OFCID>
+<OPERATORID>2</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:08:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310938572</OBJID>
+<OFCID>81029</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:14:34</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313825572</OBJID>
+<OFCID>59158</OFCID>
+<OPERATORID>23030</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:03:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879569882</OBJID>
+<OFCID>10199</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:15:56</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313932572</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>38</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:44:43</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313817572</OBJID>
+<OFCID>25071</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:29:30</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686311515880</OBJID>
+<OFCID>92198</OFCID>
+<OPERATORID>34208</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:55:58</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313940880</OBJID>
+<OFCID>25113</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:23:32</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312315880</OBJID>
+<OFCID>79068</OFCID>
+<OPERATORID>80925</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-17T02:38:27</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864527572</OBJID>
+<OFCID>38615</OFCID>
+<OPERATORID>330</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:08:05</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786255612572</OBJID>
+<OFCID>63583</OFCID>
+<OPERATORID>273</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:58:19</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402446572</OBJID>
+<OFCID>07153</OFCID>
+<OPERATORID>7514</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:52:56</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686304891882</OBJID>
+<OFCID>40494</OFCID>
+<OPERATORID>59114</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:28:54</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314006572</OBJID>
+<OFCID>68249</OFCID>
+<OPERATORID>57220</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:42:51</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313973880</OBJID>
+<OFCID>25398</OFCID>
+<OPERATORID>9776</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T20:04:40</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314030880</OBJID>
+<OFCID>57384</OFCID>
+<OPERATORID>56335</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:38:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686303933880</OBJID>
+<OFCID>01391</OFCID>
+<OPERATORID>30622</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:38</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433139880</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:30:05</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314022572</OBJID>
+<OFCID>25400</OFCID>
+<OPERATORID>26511</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:38</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433139572</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:27:35</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313810882</OBJID>
+<OFCID>25418</OFCID>
+<OPERATORID>14323</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:51:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313942882</OBJID>
+<OFCID>25079</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:09</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433163572</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:09</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433163880</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:46</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433155880</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:25:55</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433147880</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:14</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402461880</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T20:04:39</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310442880</OBJID>
+<OFCID>57384</OFCID>
+<OPERATORID>56335</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:18</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864213880</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:21</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433130880</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:14:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864207370</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>901</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350836370</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:43:20</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313976370</OBJID>
+<OFCID>25022</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:15:40</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686256545572</OBJID>
+<OFCID>97151</OFCID>
+<OPERATORID>45599</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:17</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864213572</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433155572</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:35</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433130572</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:40:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879668370</OBJID>
+<OFCID>38564</OFCID>
+<OPERATORID>2</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:26:33</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402431370</OBJID>
+<OFCID>07153</OFCID>
+<OPERATORID>7514</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:35:18</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313793370</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:19:09</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314024370</OBJID>
+<OFCID>04145</OFCID>
+<OPERATORID>45178</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:53:20</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314016370</OBJID>
+<OFCID>25409</OFCID>
+<OPERATORID>89103</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:06</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433157882</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:48</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350836882</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:19:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433149882</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433140882</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433132882</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402463882</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:14:01</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463060571</OBJID>
+<OFCID>28807</OFCID>
+<OPERATORID>28333</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:24:32</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314008370</OBJID>
+<OFCID>25417</OFCID>
+<OPERATORID>70143</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:25:04</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313709571</OBJID>
+<OFCID>59077</OFCID>
+<OPERATORID>6</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:19:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433149370</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:12:25</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313717571</OBJID>
+<OFCID>25209</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:44:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463102571</OBJID>
+<OFCID>28426</OFCID>
+<OPERATORID>102702</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350838372</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402471882</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:09:58</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686310941372</OBJID>
+<OFCID>84200</OFCID>
+<OPERATORID>64838</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:15:05</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313829372</OBJID>
+<OFCID>25437</OFCID>
+<OPERATORID>61207</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:29:26</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313845372</OBJID>
+<OFCID>25409</OFCID>
+<OPERATORID>57467</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:39</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433140370</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:24</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433132370</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402463370</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:52</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350841571</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350833571</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:23:58</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313969372</OBJID>
+<OFCID>89193</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-14T20:18:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647879685372</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>903</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:03:12</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313952372</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:04:07</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402441372</OBJID>
+<OFCID>07150</OFCID>
+<OPERATORID>56587</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T13:50:14</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547864512881</OBJID>
+<OFCID>82900</OFCID>
+<OPERATORID>45393</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:23:31</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313832571</OBJID>
+<OFCID>79068</OFCID>
+<OPERATORID>80925</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:26:41</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313931571</OBJID>
+<OFCID>63525</OFCID>
+<OPERATORID>2</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:30:01</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313719881</OBJID>
+<OFCID>25144</OFCID>
+<OPERATORID>4</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:51:55</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463079881</OBJID>
+<OFCID>28426</OFCID>
+<OPERATORID>102702</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:19:39</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686314005571</OBJID>
+<OFCID>65223</OFCID>
+<OPERATORID>46995</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:04</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402473372</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T06:43:50</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>665711227372</OBJID>
+<OFCID>38630</OFCID>
+<OPERATORID>88500</OPERATORID>
+<PTYPE>RK</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:19:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433150372</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:27:29</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433126372</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:18</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433134372</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:29</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864209372</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:28:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433159372</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:41:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313985372</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:30:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313719573</OBJID>
+<OFCID>25204</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:25</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402465372</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:29:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433142372</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:52:03</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313685573</OBJID>
+<OFCID>25393</OFCID>
+<OPERATORID>9</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:49:22</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879584881</OBJID>
+<OFCID>38216</OFCID>
+<OPERATORID>7</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T06:28:27</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647879680571</OBJID>
+<OFCID>38630</OFCID>
+<OPERATORID>70268</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:46:13</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786313981881</OBJID>
+<OFCID>25397</OFCID>
+<OPERATORID>75217</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:22:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433162571</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:24:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433138571</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:08:05</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312316573</OBJID>
+<OFCID>54135</OFCID>
+<OPERATORID>91599</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:27:19</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313974573</OBJID>
+<OFCID>25202</OFCID>
+<OPERATORID>10</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:54:11</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463089883</OBJID>
+<OFCID>28426</OFCID>
+<OPERATORID>102702</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:21:06</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686350796883</OBJID>
+<OFCID>55747</OFCID>
+<OPERATORID>17</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:17:16</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647864212571</OBJID>
+<OFCID>55962</OFCID>
+<OPERATORID>572</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:23:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433154571</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350835881</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:00</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402469571</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:26:01</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313974881</OBJID>
+<OFCID>25417</OFCID>
+<OPERATORID>70143</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:56:29</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313917881</OBJID>
+<OFCID>25398</OFCID>
+<OPERATORID>9776</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:14</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402461573</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T20:34:50</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313999573</OBJID>
+<OFCID>96200</OFCID>
+<OPERATORID>74164</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:25:55</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433147573</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:41:53</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786305201571</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>901</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:48:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>647879706571</OBJID>
+<OFCID>42177</OFCID>
+<OPERATORID>122</OPERATORID>
+<PTYPE>AGE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T19:47:10</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312316881</OBJID>
+<OFCID>31257</OFCID>
+<OPERATORID>59638</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T10:53:56</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790463031371</OBJID>
+<OFCID>28426</OFCID>
+<OPERATORID>102702</OPERATORID>
+<PTYPE>MR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:49:08</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313990881</OBJID>
+<OFCID>25401</OFCID>
+<OPERATORID>93263</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:49</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350837883</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:43:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786350835573</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:49:45</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313992883</OBJID>
+<OFCID>51203</OFCID>
+<OPERATORID>75760</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T14:52:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>547879691573</OBJID>
+<OFCID>41431</OFCID>
+<OPERATORID>12098</OPERATORID>
+<PTYPE>ARE</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:23</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433131573</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T15:38:07</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313984883</OBJID>
+<OFCID>25290</OFCID>
+<OPERATORID>595</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:58:10</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313860883</OBJID>
+<OFCID>25088</OFCID>
+<OPERATORID>5</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:53:15</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402462881</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:58:28</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686350796371</OBJID>
+<OFCID>55162</OFCID>
+<OPERATORID>10</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:26:47</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433156881</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:48:32</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786314006881</OBJID>
+<OFCID>88241</OFCID>
+<OPERATORID>66630</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:25:56</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433148881</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:20:23</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>790433131881</OBJID>
+<OFCID>38594</OFCID>
+<OPERATORID>3</OPERATORID>
+<PTYPE>MN</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:09:58</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686402431883</OBJID>
+<OFCID>25400</OFCID>
+<OPERATORID>26511</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T20:28:21</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313794883</OBJID>
+<OFCID>55805</OFCID>
+<OPERATORID>44621</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T17:07:59</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313943883</OBJID>
+<OFCID>25421</OFCID>
+<OPERATORID>12560</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T07:21:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786256578573</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>311</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:15:20</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313844883</OBJID>
+<OFCID>25409</OFCID>
+<OPERATORID>57467</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T16:55:25</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686309717881</OBJID>
+<OFCID>31247</OFCID>
+<OPERATORID>96434</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T18:51:02</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786402470881</OBJID>
+<OFCID>40158</OFCID>
+<OPERATORID>388</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:39:11</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786313769371</OBJID>
+<OFCID>11167</OFCID>
+<OPERATORID>433</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T12:53:50</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>786310444371</OBJID>
+<OFCID>57384</OFCID>
+<OPERATORID>38056</OPERATORID>
+<PTYPE>AG</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T08:44:52</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313935371</OBJID>
+<OFCID>74594</OFCID>
+<OPERATORID>95060</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:36:38</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686313968371</OBJID>
+<OFCID>38066</OFCID>
+<OPERATORID>9</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+<PostalObjectAcceptanceEntity xmlns="http://schemas.datacontract.org/2004/07/PosteItaliane.Sin.TTProxy.Interfaces.Entities">
+<DEN>2020-10-16T09:39:08</DEN>
+<MSGTYPE>M1</MSGTYPE>
+<OBJID>686312286373</OBJID>
+<OFCID>79058</OFCID>
+<OPERATORID>7</OPERATORID>
+<PTYPE>AR</PTYPE>
+</PostalObjectAcceptanceEntity>
+</postalObjectAcceptanceEntities>
+</PostalObjectAcceptance>
+</soap:Body>
+</soap:Envelope>

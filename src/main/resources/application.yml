@@ -1,0 +1,33 @@
+debug: false
+logging:
+  level:
+    root: warn
+    it.poste.sdh: debug
+
+spring:
+  application:
+    name: soap-server-proxy
+  main:
+    banner-mode: off
+    log-startup-info: true
+  jackson:
+    deserialization:
+      fail-on-ignored-properties: false
+    default-property-inclusion: non_absent
+
+
+#### Url su cui vengono esposte le info di sistema (actuator)
+management:
+  endpoints.web:
+    base-path: /management
+    exposure:
+      include: info, health, metrics, prometheus
+
+cxf:
+  path: '/'
+sf-proxy:
+  port: 8080
+server:
+  tomcat:
+    connection-timeout: -1
+  port: 8080
